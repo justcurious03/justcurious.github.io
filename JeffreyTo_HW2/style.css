@@ -1,0 +1,189 @@
+/* Requirement-2.6 */
+p {
+    margin: 50px;
+    padding: 10px;
+    border: 0px;
+}
+
+li p {
+    border: 1px dashed black;
+}
+
+
+body {
+    /* Requirement-2.1 */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to top left, #ffbdbd, #c4af65);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.center {
+    /* Requirement-2.2 */
+    text-align: center;
+}
+
+/* Requirement-2.C */
+.imageCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* Requirement-2.10 */
+    width: 30%;
+    /* Requirement-2.15 */
+    position: relative;
+    z-index: -1;
+  }
+
+/*Requirement-2.9 */
+.spotifyLogo {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 30%;
+    
+}
+
+/* Requirement-2.F */
+footer p {
+    color: white;
+    float: right;
+}
+
+div {
+    margin-top: 0;
+    padding: 50px;
+    padding-left: 10px;
+}
+
+/* Requirement-2.A */
+ul {
+    /* Requirement-2.8 */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.nav {
+    /* Requirement-2.11 */
+    float: left;
+    border-right: 1px solid #bbb;
+    
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    /* Requirement-2.12 */
+    display:block;
+    /* Requirement-2.3 */
+    color: white;
+    /* Requirement-2.4 */
+    background-color: #282A35;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+/* Requirement-2.E */
+li a:hover {
+    background-color: black;
+}
+
+.active {
+    background-color: goldenrod;
+}
+
+img {
+    border-radius: 8px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+
+.overflow {
+    /* Requirement-2.7 */
+    width: 450px;
+    height: 125px;
+    /* Requirement-2.14 */
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+nav {
+    position: fixed;
+}
+
+/* Requirement-2.17 */
+.zindex {
+    z-index: 1;
+  }
+
+p.one {
+    /* Requirement-2.5 */
+    border: 2px solid black;
+}
+
+/* Requirement-2.D */
+#top5anime {
+    text-align: center;
+    text-decoration: underline;
+    color: darkgoldenrod;
+}
+
+/* Requirement-2.13 */
+p.clear {
+    clear: left;
+}
+
+/* Requirement-2.16 */
+.hidden {
+    visibility: hidden;
+}
+
+/* Requirement-2.B */
+figcaption, h2, h3 {
+    text-decoration: underline;
+}
+
+p.myanimelist {
+    padding: 0px;
+    margin: 20px;
+}
+
+/* Requirement-2.G */
+details {
+    background: #2E51A2;
+    color: white;
+    text-align: center;
+}
+/* Requirement-2.H */
+details[open] summary {
+    background: white;
+    color: black;
+}
+
+details a:link {
+    color: white;
+}
+
+details a:active {
+    color:goldenrod;
+}
+
+details a:visited {
+    color: pink;
+}
